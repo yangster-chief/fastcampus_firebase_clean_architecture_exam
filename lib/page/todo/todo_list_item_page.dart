@@ -20,6 +20,12 @@ class TodoItemsPage extends ConsumerStatefulWidget {
 
 class _TodoItemsPageState extends ConsumerState<TodoItemsPage> {
   @override
+  void initState() {
+    super.initState();
+    ref.read(todoListNotifierProvider.notifier).loadTodoItem();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final todoItemState = ref.watch(todoListNotifierProvider);
     return Scaffold(
