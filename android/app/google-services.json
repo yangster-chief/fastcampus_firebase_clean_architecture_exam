@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "367457466479",
+    "firebase_url": "https://fastcampus-firebase-clean-default-rtdb.firebaseio.com",
+    "project_id": "fastcampus-firebase-clean",
+    "storage_bucket": "fastcampus-firebase-clean.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367457466479:android:127267d3722a36323af59a",
+        "android_client_info": {
+          "package_name": "yangsterchif.fastcampus.exam.clean.fastcampus_firebase_clean_architecture_exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGLyDGIxyNW-OtDhpfWGerVncip5tvNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
